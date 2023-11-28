@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PING-PONG CHALLENGE</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <img src="space-backgroundhigh-quality8k-upscaled (1).png" class="background-image" alt="Space Background">
+    <div class="content">
+      <div class="title">
+        <div class="line">PING - PONG</div>
+        <div class="line">CHALLENGE</div>
+      </div>
+      <div class="button-container">
+        <button class="start-button" onclick="goToname()">Start</button>
+        <button class="rules-button" onclick="goToRules()">Rules</button>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <button id="audioButton">
+      <!-- Use a PNG image for the button -->
+      <img src="volume.png" alt="Audio Toggle" width="30" height="30">
+    </button>
+  </header>
+
+  <audio id="backgroundAudio" loop>
+    <source src="Bg.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="index.js"></script>
+</body>
+</html>

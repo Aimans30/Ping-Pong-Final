@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: "Death Star", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  background-image: url('space-backgroundhigh-quality8k-upscaled (1).png');
+  background-size: cover;
+  background-position: center;
+}
+
+.form-container {
+  text-align: center;
+  z-index: 1; /* Ensures the content stays above the background */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 64px; /* Increased font size */
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-family: "Death Star", sans-serif;
+  width: 400px;
+  font-size: 18px;
+}
+/* Styles for the Let's Go Button */
+.lets-go-button {
+  display: block;
+  padding: 15px 5px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 320px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-family: "Death Star", sans-serif; 
+  font-size: 20px; 
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.lets-go-button:hover {
+  background-color: white;
+  color: black;
+}
